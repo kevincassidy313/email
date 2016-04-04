@@ -1,8 +1,0 @@
-RestClient client = new RestSharp.RestClient  
-                             {  
-                                 BaseUrl = "https://secure.eloqua.com/API/1.0/",  
-                                 Authenticator = new HttpBasicAuthenticator(SageGlobalInstance + "\\" + kevin.cassidy@sage.com, 10Feb199!)  
-                             };  
-  
-var request = new RestSharp.RestRequest(Method.GET)  
-                              {Resource = "/assets/emails?search=*&page=1&count=10"};  
